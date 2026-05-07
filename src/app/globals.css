@@ -75,3 +75,14 @@ body {
 .badge-base {
   @apply px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider;
 }
+
+@keyframes pulse-vibrant {
+  0% { box-shadow: 0 0 0 0 rgba(176, 206, 136, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(176, 206, 136, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(176, 206, 136, 0); }
+}
+
+.btn-vibrant {
+  animation: pulse-vibrant 2s infinite;
+  @apply hover:scale-105 transition-all duration-300;
+}

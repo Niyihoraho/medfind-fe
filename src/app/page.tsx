@@ -96,8 +96,8 @@ export default function LandingPage() {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#search">
-                <Button className="bg-white text-[var(--med-deep)] hover:bg-white/90 font-semibold px-8 py-3 h-auto text-base rounded-xl shadow-lg shadow-black/20">
-                  <Search className="w-5 h-5 mr-2" />
+                <Button className="btn-vibrant bg-white text-[var(--med-deep)] hover:bg-white/95 font-bold px-10 py-4 h-auto text-lg rounded-2xl shadow-xl shadow-black/30 border-2 border-white/50">
+                  <Search className="w-6 h-6 mr-3 text-[var(--med-primary)]" />
                   Search Facilities
                 </Button>
               </a>

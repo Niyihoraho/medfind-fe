@@ -78,7 +78,7 @@ export function FacilityFilters({ filters, onChange, onSearch }: FacilityFilters
               Use My Location
             </Button>
           )}
-          <Button onClick={onSearch} className="shrink-0 px-8">
+          <Button onClick={onSearch} className="btn-vibrant shrink-0 px-10 bg-[var(--med-primary)] text-white hover:bg-[var(--med-deep)] shadow-md">
             Search
           </Button>
         </div>
