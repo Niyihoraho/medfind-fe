@@ -74,15 +74,13 @@ export default function LandingPage() {
           backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)`,
           backgroundSize: '40px 40px',
         }} />
-        <div className="absolute top-0 right-0 w-1/2 h-full opacity-5">
-          <svg viewBox="0 0 400 400" className="w-full h-full"><path d="M200 0C90 0 0 90 0 200s90 200 200 200 200-90 200-200S310 0 200 0zm0 350c-83 0-150-67-150-150S117 50 200 50s150 67 150 150-67 150-150 150z" fill="white"/></svg>
-        </div>
+
         
         <div className="max-w-7xl mx-auto px-4 py-20 md:py-28 relative z-10">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6">
+            <div className="inline-flex items-center gap-2 mb-6 ml-1">
               <div className="w-2 h-2 rounded-full bg-[var(--med-accent)] animate-pulse" />
-              <span className="text-[var(--med-accent-light)] text-sm font-medium">Serving Rwanda&apos;s Healthcare Needs</span>
+              <span className="text-[var(--med-accent-light)] text-xs font-bold uppercase tracking-[0.2em] opacity-90">Serving Rwanda&apos;s Healthcare Needs</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight tracking-tight mb-6">

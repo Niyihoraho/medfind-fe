@@ -74,7 +74,7 @@ export default function LoginPage() {
                 {serverError}
               </div>
             )}
-            
+
             <div className="space-y-1">
               <Input
                 label="Email Address"
@@ -86,7 +86,7 @@ export default function LoginPage() {
                 className="text-[13px] border-primary/20 focus-visible:ring-primary/30"
               />
             </div>
-            
+
             <div className="space-y-1">
               <Input
                 label="Password"
@@ -99,20 +99,15 @@ export default function LoginPage() {
               />
             </div>
 
-            <Button 
-              type="submit" 
-              className="w-full mt-4 h-11 text-[14px] font-medium bg-gradient-to-r from-primary to-deep text-accent hover:opacity-90 border-none rounded-[8px] flex items-center justify-center gap-2" 
+            <Button
+              type="submit"
+              className="w-full mt-4 h-11 text-[14px] font-medium bg-gradient-to-r from-primary to-deep text-accent hover:opacity-90 border-none rounded-[8px] flex items-center justify-center gap-2"
               isLoading={isPending}
             >
               {!isPending && <Sparkles className="h-4 w-4 text-accent" />}
               Sign In
             </Button>
           </form>
-
-          <div className="mt-6 text-center text-[11px] text-muted border-t border-[rgba(76,118,59,0.15)] pt-5">
-            <p className="mb-2 uppercase font-medium">Demo Credentials</p>
-            <p className="text-text-sub font-medium">admin@medfind.rw / Admin@1234</p>
-          </div>
         </CardContent>
       </Card>
     </div>
